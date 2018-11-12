@@ -16,11 +16,16 @@ div {
   display: inline-block;
   padding: .4em .75em .3em;
   text-decoration: none;
-  border: solid #333;
+  border-style: solid;
+  border-color: #333;
   color: white;
   font-size: 1.125rem;
   border-radius: 8px;
-  border-width: 3px;
+  border-width: 3.2px;
+}
+
+.btn:hover {
+  background-color: #333;
 }
 
 .btn-primary {
@@ -42,7 +47,6 @@ div {
   background-color: white;
   color: black;
   border-color: black;
-  border-style: solid;
 }
 
 .btn-ghost:hover {
@@ -56,6 +60,7 @@ div {
 
 .btn-warning:hover {
   background-color: #666;
+  border-color: #666;
 }
 
 .btn-small {
